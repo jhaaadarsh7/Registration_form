@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.css-15rfbsb-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color:#4DAF4E  !important;
+  position: relative !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.css-15rfbsb-MuiSvgIcon-root-MuiStepIcon-root {
+  color:#43056C  !important;
+  height: 30px !important;
+  width: 30px !important;  
+}
+.cap{
+  position: absolute;
+  top: -0px;
+  left: 89px;
+  rotate: 20deg;
+}
+.icon{
+  font-size: 25px;
+  color: #43056C;
+}
+
+.checkout-container {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+.css-1qv8q39-MuiStepConnector-line {
+  border-color:#bebbc0 !important;
+  border-top-width: 6px !important;
+position: relative;
+bottom: -20px;
+}
+
+.next_button {
+  text-align: right;
+}
+ button {
+  width: 140px;
+  height: 47px;
+  padding: 4px 12px 4px 12px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #4daf4e !important;
+  border: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: #fff;
+}
+button:hover{
+  background-color: #43056C !important ;
+  cursor: pointer;
+}
+ .back{
+margin-right: 10px;
+}
+

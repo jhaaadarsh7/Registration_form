@@ -1,0 +1,38 @@
+.checkout-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-step {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .checkout-step::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    height: 2px;
+    width: 100%;
+    background-color:#43056C ;
+    z-index: -1;
+  }
+  
+  .checkout-step.active {
+    color: #28a745;
+  }
+  
+  .checkout-step.active::after {
+    background-color: #28a745;
+  }
+  
+  .checkout-step:last-child::after {
+    display: none;
+  }
+  
